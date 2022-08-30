@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 body {
     font-family: 'Gowun Dodum';
-    overflow-x: hidden;
 }
 
 .container {
@@ -451,7 +451,7 @@ footer .footer-content .name {
     }
 
     .contact .contact-wrapper .contact-reach-wrapper .contact-reach {
-        width: 65%;
+        width: 100%;
         margin: 10px auto;
     }
 
