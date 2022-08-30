@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5dedc1233e.js" crossorigin="anonymous"></script>
+    <title>Home | Dom</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="head-line">
+                    <h1>PORTFOLIO</h1>
+                </div>
+
+                <!-- Resume -->
+                <div class="resume-blok">
+                    <p>Find My CV <a href="file/trigger.pdf" target="_blank">Here</a></p>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section  class="banner">
+        
+        <div class="container banner-wrapper"> <!--adding class wrap for flex -->
+
+            <!-- Greeting on Left Side -->
+            <div class="greeting">
+                <div class="mask-pict">
+                    <img src="img/profile/dom-mask.png" alt="dom">
+                </div>
+
+                <h1>Hello, <br>I'm Dominic Naufal</h1>
+                <p>I am a student of STMIK Primakara majoring in Informatics Engineering. I'm passionate in Web Development and Database Enginnering</p>
+            </div>
+            
+            <!-- Picture on Right Side -->
+            <div class="img-self">
+
+                <!-- Picture -->
+                <div class="box-image-self">
+                    <img src="img/profile/dom.png" alt="">
+                </div>
+  
+            </div>
+
+        </div>
+        
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <div class="title">
+                <h2>What Can I Do</h2>
+            </div>
+
+            <div class="skills-wrapper">
+
+                <!-- Nav, do with js -->
+                <div class="skills-img-wrapper">
+                    <div class="skills-img web-program" onclick="openTab('web', this)" id="default">
+                        <h4>Web Programming</h4>
+                    </div>
+                    <div class="skills-img data-engine" onclick="openTab('database', this)">
+                        <h4>Database Engineering</h4>
+                    </div>
+                    <div class="skills-img google-work" onclick="openTab('office', this)">
+                        <h4>Google Workspace</h4>
+                    </div>
+                </div>
+
+                <!-- Show from nav, do with js -->
+                <div class="skills-desc" id="web">
+                    <h3>Web Programming</h3>
+                    <p>I'm Passionate using HTML, CSS, JavaScript, PHP, and Python. I've tried several frameworks such as Laravel, Django, and Bootstrap only for study</p>
+                </div>
+
+                <div class="skills-desc" id="database">
+                    <h3>Database Engineering</h3>
+                    <p>I'm Passionate using MySQL for database and ever try using SQLYog for doing faster</p>
+                </div>
+
+                <div class="skills-desc" id="office">
+                    <h3>Google Workspace</h3>
+                    <p>I'm used to do some tasks using google workspace such as google document, google sheets, and google slides</p>
+                </div>
+
+                <div class="skills-desc">
+                    <h3>Web Programming</h3>
+                    <p>I'm Passionate using HTML, CSS, JavaScript, PHP, and Python. I've tried several frameworks such as Laravel, Django, and Bootstrap only for study</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="title">
+                <h2>My Portfolio</h2>
+            </div>
+
+            <div class="portfolio-content-wrapper">
+                <div class="portfolio-content">
+                    <div class="img-portfolio">
+                        <img src="img/WDC1.png" alt="sertifikat_wdc">
+                    </div>
+                    <h3>PNBWDC 2019</h3>
+                    <p>I have participated in the PNB Web Design Competition 2019 which was held offline. The race focuses on web front-end</p>
+                    <a href="file/Dominic_Naufal.pdf" target="_blank">Know More</a> 
+                </div>
+
+                <div class="portfolio-content">
+                    <div class="img-portfolio">
+                        <img src="img/WDC2.png" alt="sertifikat_wdc">
+                    </div>
+                    <h3>PNBWDC 2020</h3>
+                    <p>I also participated again in PNB Web Design Competition 2020, but it was held online. The race still focuses on Web front-end</p>
+                    <a href="file/WDC_Dom.pdf" target="_blank">Know More</a>
+                </div>
+
+                <div class="portfolio-content">
+                    <div class="img-portfolio">
+                        <img src="img/beachwalk.jpg" alt="beachwalk">
+                    </div>
+                    <h3>Training at Beachwalk</h3>
+                    <p>I have trained at beachwalk for 6 months as a member internship information and technology.</p>
+                    <a href="file/sertif_BW.pdf" target="_blank">Know More</a>
+                </div>
+                <div class="portfolio-content">
+                    <div class="img-portfolio">
+                        <img src="img/dayana.jpg" alt="dayana">
+                    </div>
+                    <h3>Dayana Tour</h3>
+                    <p>I've ever made a website with my friend called dayana. But it's still only a small website.</p>
+                    <a href="file/sertif_BW.pdf" target="_blank">Know More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="title">
+                <h2>Reach Me</h2>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-iframe">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.0192445884354!2d115.2355362147014!3d-8.68971919375669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd241aab844be9f%3A0x7bfef0260053104e!2sSTMIK%20Primakara%20-%20Cutting%20Edge%20IT%20%26%20Business%20Campus!5e0!3m2!1sid!2sid!4v1661873488192!5m2!1sid!2sid" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                </div>
+
+                <div class="contact-reach-wrapper">
+                    <div class="contact-reach">
+                        <i class="fa-solid fa-square-phone-flip"></i>
+                        <a href="https://wa.me/085792571466" target="_blank">(+62)857-9257-1466</a>
+                    </div>
+                    <div class="contact-reach">
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <a href="https://instagram.com/dom.naufal" target="_blank">@dom.naufal</a>
+                    </div>
+                    <div class="contact-reach">
+                        <i class="fa-brands fa-github"></i>
+                        <a href="">Dom-03</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h2 class="thanks">Thank You for Coming!</h2>
+                <img src="img/footer-element.svg" alt="">
+                <h2 class="name">Dominic Naufal</h2>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+
+        function openTab(skill, element) {
+            let tab_skills, btn_skills;
+
+            tab_skills = document.getElementsByClassName('skills-desc');
+            for (let i = 0; i < tab_skills.length; i++) {
+                tab_skills[i].style.display = 'none';
+            }
+
+            document.getElementById(skill).style.display = 'block';
+        }
+
+        document.getElementById("default").click();
+    </script>
+</body>
+</html>
