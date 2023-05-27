@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/profile/dom-mask.png">
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5dedc1233e.js" crossorigin="anonymous"></script>
     <title>Portfolio | Dom</title>
 </head>
 <body>
-    <header>
+    <header id="Home">
         <div class="container">
             <nav>
                 <div class="head-line">
@@ -25,7 +26,7 @@
         </div>
     </header>
 
-    <section  class="banner">
+    <section class="banner" id="Banner">
         
         <div class="container banner-wrapper"> <!--adding class wrap for flex -->
 
@@ -35,17 +36,19 @@
                     <img src="img/profile/dom-mask.png" alt="dom">
                 </div>
 
-                <div class="greet">
-                    <h1>I'm Dominic Naufal</h1>
-                    <span>Web Developer | Data Engineer</span>
-                </div>
+                <div class="greet-wrapper">
+                    <div class="greet">
+                        <h1>I'm Dominic Naufal</h1>
+                        <span>Web Developer | Data Engineer</span>
+                    </div>
 
-                <div class="desc-greet">
-                    <p>I am a student of STMIK Primakara majoring in Informatics Engineering. I'm passionate in Web Development and Database Enginnering</p>
-                </div>
+                    <div class="desc-greet">
+                        <p>I am a student of STMIK Primakara majoring in Informatics Engineering. I'm passionate in Web Development and Database Enginnering</p>
+                    </div>
 
-                <div class="banner-button-contact">
-                    <a href="#">Contact me</a>
+                    <div class="banner-button-contact">
+                        <a href="#">Contact me</a>
+                    </div>
                 </div>
             </div>
             
@@ -63,10 +66,10 @@
         
     </section>
 
-    <section class="skills">
+    <section class="skills" id="Project_Skills">
         <div class="container">
             <div class="title">
-                <h2 class="text-white text-left">PROJECT & SKILLS</h2>
+                <span>PROJECT & SKILLS</span>
             </div>
 
             <div class="skills-wrapper">
@@ -80,17 +83,17 @@
                         <div class="list-box">
                             <img src="img/element/briefing.svg" alt="people">
                             <p>03</p>
-                            <span>of Projects</span>
+                            <span>Projects</span>
                         </div>
                         <div class="list-box">
                             <img src="img/element/people.svg" alt="people">
                             <p>03</p>
-                            <span>of Volunteer</span>
+                            <span>Volunteer</span>
                         </div>
                         <div class="list-box">
                             <img src="img/element/rise.svg" alt="people">
                             <p>04</p>
-                            <span>of Competition</span>
+                            <span>Competition</span>
                         </div>
                     </div>
                 </div>
@@ -155,77 +158,20 @@
         </div>
     </section>
 
-    <section class="portfolio">
+    <section class="portfolio" id="Portfolio">
         <div class="container">
             <div class="title">
-                <h2>My Portfolio</h2>
+                <span>My Portfolio</span>
             </div>
 
             <div class="portfolio-content-wrapper">
                 <div class="portfolio-content">
-                    <div class="img-portfolio">
-                        <img src="img/WDC1.png" alt="sertifikat_wdc">
-                    </div>
-                    <h3>PNBWDC 2019</h3>
+                    <a href="">Intech-Fest 2020</a>
                     <p>I have participated in the PNB Web Design Competition 2019 which was held offline. The race focuses on web front-end</p>
-                    <a href="file/Dominic_Naufal.pdf" target="_blank">Know More</a> 
-                </div>
-
-                <div class="portfolio-content">
-                    <div class="img-portfolio">
-                        <img src="img/WDC2.png" alt="sertifikat_wdc">
-                    </div>
-                    <h3>INTECH FEST 2020</h3>
-                    <p>I also participated in Information and Technology Festival 2020. It was held online. The race still focuses on Web front-end but we can add some API for more interactive</p>
-                    <a href="file/WDC_Dom.pdf" target="_blank">Know More</a>
-                </div>
-
-                <div class="portfolio-content">
-                    <div class="img-portfolio">
-                        <img src="img/beachwalk.jpg" alt="beachwalk">
-                    </div>
-                    <h3>Training at Beachwalk</h3>
-                    <p>I have trained at beachwalk for 6 months as a member internship information and technology.</p>
-                    <a href="file/sertif_BW.pdf" target="_blank">Know More</a>
                 </div>
                 <div class="portfolio-content">
-                    <div class="img-portfolio">
-                        <img src="img/dayana.jpg" alt="dayana">
-                    </div>
-                    <h3>Dayana Tour</h3>
-                    <p>I've ever made a website with my friend called dayana. But it's still only a small website.</p>
-                    <a href="http://s.id/dbalitour" target="_blank">Know More</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact">
-        <div class="container">
-            <div class="title">
-                <h2>Reach Me</h2>
-            </div>
-
-            <div class="contact-wrapper">
-                <div class="contact-iframe">
-
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.0192445884354!2d115.2355362147014!3d-8.68971919375669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd241aab844be9f%3A0x7bfef0260053104e!2sSTMIK%20Primakara%20-%20Cutting%20Edge%20IT%20%26%20Business%20Campus!5e0!3m2!1sid!2sid!4v1661873488192!5m2!1sid!2sid" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    
-                </div>
-
-                <div class="contact-reach-wrapper">
-                    <div class="contact-reach">
-                        <i class="fa-solid fa-square-phone-flip"></i>
-                        <a href="https://wa.me/085792571466" target="_blank">(+62)857-9257-1466</a>
-                    </div>
-                    <div class="contact-reach">
-                        <i class="fa-brands fa-square-instagram"></i>
-                        <a href="https://instagram.com/dom.naufal" target="_blank">@dom.naufal</a>
-                    </div>
-                    <div class="contact-reach">
-                        <i class="fa-brands fa-github"></i>
-                        <a href="https://github.com/Fiskaa-03">Fiskaa-03</a>
-                    </div>
+                    <a href="">Intech-Fest 2020</a>
+                    <p>I have participated in the PNB Web Design Competition 2019 which was held offline. The race focuses on web front-end</p>
                 </div>
             </div>
         </div>
@@ -233,10 +179,42 @@
 
     <footer>
         <div class="container">
+            <div class="title">
+                <span class="text-white text-left">Contact me</span>
+            </div>
             <div class="footer-content">
-                <h2 class="thanks">Thank You for Coming!</h2>
-                <img src="img/footer-element.svg" alt="">
-                <h2 class="name">Dominic Naufal</h2>
+                
+                <div class="footer-left-side">
+                    <div class="footer-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat ipsum, dicta minus dolorum eaque labore.</p>
+                    </div>
+
+                    <div class="social-media">
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-envelope"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-solid fa-location-dot"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="footer-right-side">
+                    <div class="footer-button">
+                        <a href="#" class="cv-button">Download CV</a>
+                        <a href="#" class="contact-button">Lets Talk</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <span>Copyright ©2023 All rights reserved | Dominic Naufal</span>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Project_Skills">Project & Skills</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                </ul>
             </div>
         </div>
     </footer>
