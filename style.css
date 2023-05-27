@@ -149,10 +149,14 @@ header nav .resume-blok a:hover {
 
 .skills .skills-wrapper .skills-left-side .list-box-wrapper .list-box {
     width: 164px;
-    /* border: 1px solid #fff; */
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, .3);
     border-radius: 5px;
     padding: 10px 15px;
+    transition: .2s ease-in-out;
+}
+
+.skills .skills-wrapper .skills-left-side .list-box-wrapper .list-box:hover {
+    transform: translateY(-10px);
 }
 
 .skills .skills-wrapper .skills-left-side .list-box-wrapper .list-box p,span {
