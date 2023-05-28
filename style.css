@@ -219,12 +219,16 @@ header nav .resume-blok a:hover {
 }
 
 .portfolio .portfolio-content-wrapper .portfolio-content {
-    width: 35%;
+    width: 45%;
     background-color: #1E1A48;
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .3);
+}
+
+.portfolio .portfolio-content-wrapper .portfolio-content .img-portfolio img {
+    max-width: 100%;
 }
 
 .portfolio .portfolio-content-wrapper .portfolio-content a {
